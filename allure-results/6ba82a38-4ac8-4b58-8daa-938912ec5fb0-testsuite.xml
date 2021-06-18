@@ -1,0 +1,46 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624006377263' stop='1624006381667'>
+    <name>Video conference</name>
+    <title>Video conference</title>
+    <test-cases>
+        <test-case start='1624006377283' status='passed' stop='1624006381665'>
+            <name>2 user video conference</name>
+            <title>2 user video conference</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='isMultiremote' value='true'/>
+            </parameters>
+            <steps>
+                <step start='1624006377287' status='passed' stop='1624006379687'>
+                    <name>Given I am on the Landing page</name>
+                    <title>Given I am on the Landing page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624006379687' status='passed' stop='1624006379782'>
+                    <name>When I see that user1 enters the room</name>
+                    <title>When I see that user1 enters the room</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624006379782' status='passed' stop='1624006380001'>
+                    <name>And I see that user2 enters the same room</name>
+                    <title>And I see that user2 enters the same room</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1624006380001' status='passed' stop='1624006381661'>
+                    <name>Then I see that both users see self-view window</name>
+                    <title>Then I see that both users see self-view window</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
